@@ -129,12 +129,12 @@ function combat(enemy) {
     //     }
     // }
 }
+
+const welcome = console.log("_-_-_-_-_- Welcome to the COLOSSAL RPG! -_-_-_-_-_")
+const nameQ = readline.question("_-_-_-_-_- What is your Name Adventurer? -_-_-_-_-_")
+var nameSave = nameQ
+
 var player = {name: nameSave, health: 30, gold: 0 }
-
-    const welcome = console.log("_-_-_-_-_- Welcome to the COLOSSAL RPG! -_-_-_-_-_")
-    const nameQ = readline.question("_-_-_-_-_- What is your Name Adventurer? -_-_-_-_-_")
-    var nameSave = nameQ
-
     const prompt = readline.keyIn("_-_-_-_-_- well "+ nameSave + " you awake to find yourself in a dark room in what seemingly is a dungeon. you find your chains unlocked, a club on the floor beside you, and the door to your cell open you are free to leave...or so it seems. press 'e' to grab the club. -_-_-_-_-_")
     console.log("-_-_-_-_-_You pick the club off the floor feeling a tad bit safer now that you are armed_-_-_-_-_- ")   
     
